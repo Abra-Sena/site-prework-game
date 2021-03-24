@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![](https://cdn.glitch.com/8e2b0029-f07f-4f16-aea6-a4faa1467292%2Fwalkthrough.gif?v=1616564524609)
-<img src='walkthrough.gif' title='Gif Walkthrough' width='250' alt='Gif Walkthrough' /> 
+<br><img src='walkthrough.gif' title='Gif Walkthrough' width='800' alt='Gif Walkthrough' /> 
 
 Gif created with [Kap](https://getkap.co/)
 
