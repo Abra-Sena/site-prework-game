@@ -14,22 +14,38 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
-  <body>
+  <body class="body">
     <h1>Emissa Memory Game</h1>
     
+    <p>Welcome to the game!</p>
     <p>
-      Welcome to the game! Press buttons to repeat back the pattern.
+      Press 'Start' to launch the game. Press buttons after guessing to repeat back the pattern.
     </p>
+    <p>
+      Once you press the wrong button, the game will be over. Good luck &#127808;!
+    </p>
+    
+<!--     <p id="demo"></p> -->
     
     <button id="startBtn" onclick="startGame()">Start</button>
     
     <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
     
-    <div id="gameButtons">
-      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
-      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
-      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    <div id="gameButtons" class="game_buttons">
+      <button id="button1" class="game_button" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <audio ></audio>
+      </button>
+      <button id="button2" class="game_button" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" class="game_button" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" class="game_button" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" class="game_button" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" class="game_button" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" class="game_button" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" class="game_button" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
+      <button id="button9" class="game_button" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()"></button>
+      <button id="button10" class="game_button" onclick="guess(10)" onmousedown="startTone(10)" onmouseup="stopTone()"></button>
+      <button id="button11" class="game_button" onclick="guess(11)" onmousedown="startTone(11)" onmouseup="stopTone()"></button>
+      <button id="button12" class="game_button" onclick="guess(12)" onmousedown="startTone(12)" onmouseup="stopTone()"></button>
     </div>
 
     <!-- include the Glitch button to show what the webpage is about and
